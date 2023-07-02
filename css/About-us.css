@@ -1,0 +1,1189 @@
+@font-face {
+    font-family: Poppins;
+    font-family: GreatVibes;
+    src: url(../Fonts/Poppins/Poppins-Regular.ttf);
+    src: url(../Fonts/Great_Vibes/GreatVibes-Regular.ttf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d-none{
+    display: none;
+}
+.test-bg-color {
+    background-color: red;
+    border: 1px solid yellowgreen;
+}
+
+.main-section {
+    background-size: 100%;
+
+}
+
+.underline{
+    text-decoration: none;
+    color: #000000;
+}
+
+.main-section-header {
+    width: 90%;
+    margin: 0px auto;
+    padding: 20px 0px;
+    position: relative;
+}
+.main-section-header-img{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    width: 400px;
+    z-index: 1000;
+}
+
+.main-section-sub-header-p{
+    position: absolute;
+    top: 80px;
+    right: 250px;
+    z-index: 1000;
+    font-weight: bold;
+    color: #FC84B4;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.divide-span{
+    position: absolute;
+    top: 70px;
+    right: 200px;
+    font-size: 30px;
+    z-index: 1000;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.main-section-header-img-1{
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    width: 100px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.brand {
+    display: inline-block;
+    width: 33%;
+    font-size: 28px;
+    vertical-align: middle;
+}
+
+.nav-bar {
+    display: inline-block;
+    width: 33%;
+    vertical-align: middle;
+}
+
+
+.menu {
+    list-style: none;
+}
+
+.menu>li > .active{
+    color: rgb(243, 105, 128);
+    text-decoration: none;
+}
+
+.menu>li {
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 22px;
+    color: black;
+    position: relative;
+    cursor: pointer;
+}
+
+.bg-image {
+    text-align: center;
+    position: relative;
+}
+
+.bg-image>img {
+    width: 100%;
+}
+
+.bg-image-span{
+    position: absolute;
+    color: #ffffff;
+    top: 100px;
+    left: 1100px;
+    font-size: 20px;
+}
+
+.bg-image-span-1{
+    position: absolute;
+    color: #ffffff;
+    top: 100px;
+    left: 1180px;
+    font-size: 20px;
+}
+
+.bg-image-span-2{
+    position: absolute;
+    color: #ffffff;
+    top: 100px;
+    left: 1210px;
+    font-size: 20px;
+}
+
+
+.fifth-main-section {
+    margin: 2rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.fifth-main-sub-img {
+    display: inline-block;
+    padding: 1rem 1rem;
+    position: relative;
+    width: 600px;
+    vertical-align: middle;
+}
+
+.fifth-main-sub-img>img {
+    width: 100%;
+}
+
+.fifth-main-sub-text {
+    display: inline-block;
+    padding: 1rem 1rem;
+    width: 600px;
+    vertical-align: middle;
+}
+
+.fifth-main-sub-text-h1 {
+    font-family: GreatVibes;
+    font-weight: normal;
+    font-size: 34px;
+    text-align: left;
+    color: #FC84B4;
+}
+.white-ul{
+    color: #ffffff;
+    text-decoration: none;
+}
+.fifth-main-sub-text-h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 50px;
+    color: #000000;
+    width: 300px;
+}
+
+.fifth-main-sub-text-h3 {
+    width: 550px;
+    text-align: left;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 1.3;
+    color: #000000;
+}
+
+.fifth-main-sub-text-p {
+    width: 550px;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 1.3;
+    color: #918f8f;
+}
+
+.our-team{
+    background-color: #F5F9F7;
+    position: relative;
+    height: 860px;
+}
+
+.our-team-h2 {
+    position: absolute;
+    font-family: GreatVibes;
+    font-weight: normal;
+    top: 50px;
+    left: 600px;
+    font-size: 40px;
+    text-align: left;
+    color: #FC84B4;
+}
+
+
+.our-team-h1 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    top: 90px;
+    left: 430px;
+    text-align: center;
+    margin-left: 50px;
+    color: #000000;
+}
+
+.our-professional {
+    display: flex;
+    width: 90%;
+    margin: 4rem 4rem;
+}
+
+.our-professional-sub {
+    position: relative;
+    flex: 33.33%;
+    height: 590px;
+    margin: 12rem 2rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.our-professional-sub > img {
+    width: 100%;
+}
+
+.our-professional-sub-h1{
+    position: absolute;
+    font-size: 40px;
+    width: 200px;
+    top: 420px;
+    left: 55px;
+    text-align: center;
+}
+
+.our-professional-sub-span{
+    position: absolute;
+    top: 540px;
+    left: 120px;
+    font-size: 20px;
+}
+
+.book-you-seat {
+    position: relative;
+}
+
+.book-you-seat>img {
+    width: 100%;
+    height: 770px;
+    filter: brightness(35%);
+}
+
+.book-you-seat-h1 {
+    position: absolute;
+    top: 220px;
+    left: 480px;
+    font-family: GreatVibes;
+    font-weight: normal;
+    font-size: 80px;
+    color: #FC84B4;
+}
+
+.book-you-seat-h2 {
+    position: absolute;
+    top: 330px;
+    left: 260px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85px;
+    text-align: center;
+    color: #ffffff;
+    width: 800px;
+}
+
+.book-you-seat-p {
+    position: absolute;
+    top: 535px;
+    left: 320px;
+    width: 720px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.book-you-seat-span {
+    position: absolute;
+    top: 600px;
+    left: 510px;
+    background-color: #FC84B4;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.book-you-seat-span:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.our-haircuts{
+    background-color: #ffffff;
+    position: relative;
+    height: 650px;
+}
+
+.our-haircuts-h2 {
+    position: absolute;
+    font-family: GreatVibes;
+    font-weight: normal;
+    top: 30px;
+    left: 630px;
+    font-size: 60px;
+    text-align: left;
+    color: #FC84B4;
+}
+
+
+.our-haircuts-h1 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    top: 105px;
+    left: 530px;
+    text-align: center;
+    margin-left: 50px;
+    color: #000000;
+}
+
+.our-haircuts-price {
+    display: flex;
+    width: 90%;
+    margin: 4rem 4rem;
+}
+
+.our-haircuts-price-sub {
+    position: relative;
+    flex: 33.33%;
+    height: 400px;
+    margin: 12rem 2rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.our-haircuts-price-sub-h1{
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 10px;
+    left: 5px;
+}
+
+.our-haircuts-price-sub-h2{
+    position: absolute;
+    text-align: left;
+    font-size: 32px;
+    color: #FC84B4;
+    top: 70px;
+    left: 5px;
+}
+
+.our-haircuts-price-sub-span-1{
+    position: absolute;
+    text-align: left;
+    font-size: 20px;
+    color: #918f8f;
+    top: 120px;
+    left: 5px;
+}
+
+.our-haircuts-price-sub-span-2{
+    position: absolute;
+    text-align: left;
+    font-size: 20px;
+    color: #918f8f;
+    top: 150px;
+    left: 5px;
+}
+
+.our-haircuts-price-sub-span-3{
+    position: absolute;
+    text-align: left;
+    font-size: 20px;
+    color: #918f8f;
+    top: 180px;
+    left: 5px;
+}
+
+.our-haircuts-price-sub-span-4{
+    position: absolute;
+    text-align: left;
+    font-size: 20px;
+    color: #918f8f;
+    top: 210px;
+    left: 5px;
+}
+
+.our-haircuts-price-sub-span-5{
+    position: absolute;
+    text-align: left;
+    font-size: 20px;
+    color: #918f8f;
+    top: 240px;
+    left: 5px;
+}
+
+.our-haircuts-price-sub-span-6{
+    position: absolute;
+    text-align: left;
+    font-size: 20px;
+    color: #918f8f;
+    top: 270px;
+    left: 5px;
+}
+
+.our-haircuts-price-sub-span{
+    position: absolute;
+    text-align: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #FC84B4;
+    top: 320px;
+    left: 5px;
+    padding: 15px;
+}
+.our-haircuts-price-sub-span:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.harircuts-brand-list-main{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    padding: 1rem 3rem;
+    width: 100%;
+    height: 400px;
+    background-image: url(../Images/About-us/parallax3.jpg);
+    background-position: 100%;
+    filter: brightness(50%);
+}
+
+.harircuts-brand-list-main-sub{
+    position: relative;
+    width: 600px;
+    margin: 2rem 1rem;
+}
+
+.harircuts-brand-list-main-sub > img{
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: #ffffff;
+    
+}
+
+
+.address-call-working-time{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    padding: 1rem 3rem;
+    width: 100%;
+    height: 320px;
+    background-color: #FC84B4;
+}
+
+.address-call-working-time-sub{
+    width: 600px;
+    margin: 6rem 0rem;
+    position: relative;
+}
+
+.address-call-working-time-sub > img{
+    position: absolute;
+    width: 60px;
+    top: 30px;
+}
+
+.address-call-working-time-sub-h3{
+    font-size: 20px;
+    position: absolute;
+    color: #ffffff;
+    top: 33px;
+    left: 80px;
+}
+
+.address-call-working-time-sub-p{
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #ffffff;
+    width: 200px;
+}
+
+.call-working-time-sub-p{
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #ffffff;
+    width: 150px;
+}
+
+.working-time-sub-p{
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    font-size: 16px;
+    line-height: 1;
+    color: #ffffff;
+}
+
+
+
+.footer-upper{
+    background-color: #26232A;
+    height: 180px;
+    
+}
+
+.footer-upper-header-h1 {
+    position: relative;
+    font-family: GreatVibes;
+    font-weight: normal;
+    font-size: 54px;
+    width: 300px;
+    left: 70px;
+    top: 30px;
+    text-align: left;
+    color: #FC84B4;
+}
+.footer-upper-header{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+    position: relative;
+    color: #ffffff;
+}
+
+.footer-upper-header-li-1{
+    position: absolute;
+    bottom: -15px;
+    right: 260px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.footer-upper-header-li-2{
+    position: absolute;
+    bottom: -15px;
+    right: 140px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #FC84B4;
+}
+
+.footer-upper-header-li-3{
+    position: absolute;
+    bottom: -15px;
+    right: 30px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.width-line{
+    position: relative;
+    top: 35px;
+    left: 10px;
+    width: 98%;
+    border-top: 1px solid white;
+}
+
+.copy-right-text{
+    position: relative;
+    color: #ffffff;
+}
+
+.copy-right-text-span{
+    position: absolute;
+    font-size: 18px;
+    top: 60px;
+    left: 80px;
+}
+
+.pink-ul{
+    color: #FC84B4;
+    text-decoration: none;
+}
+.copy-right-text > a > img {
+    position: absolute;
+    width: 100px;
+    top: 60px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.d-none{
+    display: none !important;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .d-none-sm{
+        display: none !important;
+    }
+    .d-block-sm{
+        display: block !important;
+    }
+    .main-section-header {
+        position: relative;
+        width: 568px;
+        height: 180px;
+        text-align: center;
+        margin: 0px auto;
+        padding:3rem 0px;
+        background-color: #FC84B4;
+    }
+    .brand {
+        width: 300px;
+        font-size: 28px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .mobile-container {
+        width: 568px;
+        margin: auto;
+        background-color: #555;
+        color: white;
+    }
+
+    .social-mobile {
+        width: 100px;
+        margin-top: 20px;
+        margin-left: 90px;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: #FC84B4;
+        position: relative;
+    }
+
+    .topnav #myLinks {
+        display: none;
+    }
+
+    .topnav a {
+        color: #000000;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .topnav a.icon {
+        background-color: #ffffff;
+        display: block;
+        color: #000000;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .active-mobile {
+        background-color: #ffffff;
+        color: #000000;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .bg-image {
+        width: 568px;
+        text-align: center;
+        position: relative;
+    }
+    
+    .bg-image>img {
+        width: 100%;
+        height: 100px;
+    }
+    
+    .bg-image-span{
+        position: absolute;
+        color: #ffffff;
+        top: 40px;
+        left: 350px;
+        font-size: 20px;
+    }
+    
+    .bg-image-span-1{
+        position: absolute;
+        color: #ffffff;
+        top: 40px;
+        left: 420px;
+        font-size: 20px;
+    }
+    
+    .bg-image-span-2{
+        position: absolute;
+        color: #ffffff;
+        top: 40px;
+        left: 450px;
+        font-size: 20px;
+    }
+    .fifth-main-section {
+        width: 568px;
+        margin: 0rem;
+        padding: 0rem;
+        text-align: center;
+    }
+    
+    .fifth-main-sub-text {
+        display: block;
+        padding: 1rem;
+        width: 100%;
+        text-align: left;
+    }
+    
+    .fifth-main-sub-text-h1 {
+        font-family: GreatVibes;
+        font-weight: normal;
+        font-size: 26px;
+        text-align: left;
+        color: #FC84B4;
+    }
+
+    .fifth-main-sub-text-h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-align: left;
+        margin-left: 0px;
+        color: #000000;
+        width: 300px;
+    }
+    
+    .fifth-main-sub-text-h3 {
+        width: 450px;
+        text-align: left;
+        font-size: 20px;
+        margin-top: 20px;
+        line-height: 1.3;
+        color: #000000;
+    }
+    
+    .fifth-main-sub-text-p {
+        width: 500px;
+        text-align: left;
+        font-size: 18px;
+        margin-top: 20px;
+        line-height: 1.3;
+        color: #918f8f;
+    }
+    .our-team{
+        background-color: #F5F9F7;
+        width: 568px;
+        position: relative;
+        height: 2768px;
+    }
+    
+    .our-team-h2 {
+        position: absolute;
+        font-family: GreatVibes;
+        font-weight: normal;
+        top: 50px;
+        left: 35%;
+        font-size: 40px;
+        text-align: left;
+        color: #FC84B4;
+    }
+    
+    
+    .our-team-h1 {
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        top: 95px;
+        left: 5%;
+        text-align: center;
+        margin-left: 50px;
+        color: #000000;
+    }
+    
+    .our-professional {
+        display: block;
+        width: 568px;
+        margin: 0rem;
+    }
+    
+    .our-professional-sub {
+        position: relative;
+        flex: 568px;
+        height: 790px;
+        margin: 3rem;
+        top: 200px;
+        background-color: #ffffff;
+        text-align: center;
+    }
+    
+    .our-professional-sub > img {
+        width: 100%;
+    }
+    
+    .our-professional-sub-h1{
+        position: absolute;
+        font-size: 40px;
+        width: 200px;
+        top: 590px;
+        left: 125px;
+        text-align: center;
+    }
+    
+    .our-professional-sub-span{
+        position: absolute;
+        top: 700px;
+        left: 190px;
+        font-size: 20px;
+    }
+
+    .book-you-seat {
+        position: relative;
+    }
+    
+    .book-you-seat>img {
+        width: 568px;
+        height: 700px;
+        filter: brightness(35%);
+    }
+    
+    .book-you-seat-h1 {
+        position: absolute;
+        top: 120px;
+        left: 38%;
+        font-family: GreatVibes;
+        font-weight: normal;
+        font-size: 50px;
+        color: #FC84B4;
+    }
+    
+    .book-you-seat-h2 {
+        position: absolute;
+        top: 200px;
+        left: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 45px;
+        text-align: center;
+        color: #ffffff;
+        width: 500px;
+    }
+    
+    .book-you-seat-p {
+        position: absolute;
+        top: 335px;
+        left: 30px;
+        font-size: 21px;
+        line-height: 2;
+        width: 500px;
+        text-align: center;
+        color: #ffffff;
+    }
+    
+    .book-you-seat-span {
+        position: absolute;
+        top: 580px;
+        left: 112px;
+        background-color: #FC84B4;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    
+
+    .our-haircuts{
+        width: 568px;
+        height: 1820px;
+    }
+    
+    .our-haircuts-h2 {
+        top: 30px;
+        left: 40%;
+        font-size: 60px;
+    }
+    
+    
+    .our-haircuts-h1 {
+        font-size: 40px;
+        top: 105px;
+        left: 25%;
+        text-align: center;
+        margin-left: 50px;
+        color: #000000;
+    }
+    
+    .our-haircuts-price {
+        display: block;
+        width: 500px;
+        margin: 2rem;
+    }
+    
+    .our-haircuts-price-sub {
+        top: 200px;
+        height: 500px;
+        margin: 1rem;
+    }
+    
+    .our-haircuts-price-sub-h1{
+        font-size: 50px;
+        top: 10px;
+        left: 5px;
+    }
+    
+    .our-haircuts-price-sub-h2{
+        font-size: 39px;
+        top: 80px;
+        left: 5px;
+    }
+    
+    .our-haircuts-price-sub-span-1{
+        font-size: 25px;
+        top: 150px;
+        left: 5px;
+    }
+    
+    .our-haircuts-price-sub-span-2{
+        font-size: 25px;
+        top: 190px;
+        left: 5px;
+    }
+    
+    .our-haircuts-price-sub-span-3{
+        font-size: 25px;
+        top: 230px;
+        left: 5px;
+    }
+    
+    .our-haircuts-price-sub-span-4{
+        font-size: 25px;
+        top: 270px;
+        left: 5px;
+    }
+    
+    .our-haircuts-price-sub-span-5{
+        font-size: 25px;
+        top: 310px;
+        left: 5px;
+    }
+    
+    .our-haircuts-price-sub-span-6{
+        font-size: 25px;
+        top: 350px;
+        left: 5px;
+    }
+    
+    .our-haircuts-price-sub-span{
+        font-size: 24px;
+        color: #ffffff;
+        top: 400px;
+        width: 400px;
+        left: 5px;
+        padding: 25px;
+    }
+
+    .harircuts-brand-list-main{
+        font-size: 30px;
+        padding: 1rem 0rem;
+        width: 568px;
+        height: 300px;
+        background-image: url(../Images/About-us/parallax3.jpg);
+        background-position: 100%;
+        filter: brightness(40%);
+    }
+    
+    .harircuts-brand-list-main-sub{
+        width: 100%;
+        margin: 1rem;
+    }
+    
+    .harircuts-brand-list-main-sub > img{
+        top: 90px;
+        width: 100%;
+        
+    }
+
+    .address-call-working-time{
+        display: block;
+        font-size: 30px;
+        padding: 0rem;
+        width: 568px;
+        height: 490px;
+        background-color: #FC84B4;
+    }
+    
+    .address-call-working-time-sub{
+        width: 568px;
+        margin: 0rem 0rem;
+        padding: 1rem;
+        position: relative;
+    }
+    
+    .address-call-working-time-sub > img{
+        position: absolute;
+        width: 90px;
+        top: 40px;
+    }
+
+    .address-call-working-time-sub-img > img{
+        position: absolute;
+        width: 70px;
+        top: 195px;
+    }
+    
+    
+    .address-call-working-time-sub-h3{
+        font-size: 24px;
+        position: absolute;
+        color: #ffffff;
+        top: 43px;
+        left: 100px;
+    }
+    .mobile-view-call-h3-sub > img{
+        position: absolute;
+        width: 80px;
+        top: 330px;
+    }
+
+    .address-call-working-time-sub-h3-img{
+        font-size: 24px;
+        position: absolute;
+        color: #ffffff;
+        top: 183px;
+        left: 100px;
+    }
+    
+    .mobile-view-call-h3{
+        font-size: 24px;
+        position: absolute;
+        color: #ffffff;
+        top: 333px;
+        left: 100px;
+    }
+    .address-call-working-time-sub-p{
+        position: absolute;
+        top: 80px;
+        left: 100px;
+        font-size: 19px;
+        line-height: 1.3;
+        color: #ffffff;
+        width: 200px;
+    }
+    
+    .call-working-time-sub-p{
+        position: absolute;
+        top: 220px;
+        left: 100px;
+        font-size: 19px;
+        line-height: 1.3;
+        color: #ffffff;
+        width: 150px;
+    }
+    
+    .working-time-sub-p{
+        position: absolute;
+        top: 370px;
+        left: 100px;
+        font-size: 19px;
+        line-height: 1;
+        color: #ffffff;
+    }
+
+    .footer-upper{
+        background-color: #26232A;
+        height: 380px;
+        width: 568px;
+        
+    }
+    
+    .footer-upper-header-h1 {
+        position: relative;
+        font-family: GreatVibes;
+        font-weight: normal;
+        font-size: 54px;
+        width: 408px;
+        left: 30px;
+        top: 50px;
+        text-align: left;
+        color: #FC84B4;
+    }
+
+    .footer-upper-header{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        width: 568px;
+        position: relative;
+        color: #ffffff;
+    }
+    
+    .footer-upper-header-li-1{
+        position: absolute;
+        bottom: -85px;
+        right: 360px;
+        color: #FC84B4;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    
+    .footer-upper-header-li-2{
+        position: absolute;
+        bottom: -85px;
+        right: 230px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    
+    .footer-upper-header-li-3{
+        position: absolute;
+        bottom: -85px;
+        right: 100px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    
+    .width-line{
+        position: relative;
+        top: 115px;
+        left: 30px;
+        width: 500px;
+        border-top: 1px solid white;
+    }
+    
+    .copy-right-text{
+        position: relative;
+        color: #ffffff;
+    }
+    
+    .copy-right-text-span{
+        position: absolute;
+        font-size: 22px;
+        top: 140px;
+        left: 59px;
+    }
+    
+    .copy-right-text > a > img {
+        position: absolute;
+        width: 100px;
+        top: 200px;
+        right: 220px;
+        cursor: pointer;
+    }
+
+    
+}
